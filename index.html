@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPA Favoritos do Github</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="./js/main.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="app">
+        <header>
+            <img src="assets/gitfav.svg" alt="Logo com uma estrela na frente entre par de chaves e escrita GitFav">
+            <div class="search">
+                <label for="input-search" class="sr-only">Digite o Github username que quer favoritar</label>
+                <input id="input-search" type="text" placeholder="Digite o Github username que quer favoritar">
+                <button>
+                    <div>
+
+                        <img src="assets/star.svg" alt="Desenho em contorno de uma estrela">
+                        Favoritar
+                    </div>
+                </button>
+            </div>
+        </header>
+        <table>
+            <thead>
+                <tr>
+                    <th>Usuário</th>
+                    <th>Repositories</th>
+                    <th>Followers</th>
+                    <th>Ação</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="user">
+                        <img src="https://github.com/karencscardoso.png" alt="Imagem de Karen Cardoso">
+                        <a href="http://github.com/karencscardoso" target="_blank">
+                            <p>Karen Cardoso</p>
+                            <span>/karencscardoso</span>
+                        </a>
+                    </td>
+                    <td>
+                        <p>1454</p>
+                    </td>
+                    <td>
+                        <p>598</p>
+                    </td>
+                    <td>
+                        <button class="remove">Remover</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="user">
+                        <img src="https://github.com/diego3g.png" alt="Imagem de Karen Cardoso">
+                        <a href="http://github.com/diego3g" target="_blank">
+                            <p>Diego Fernandes</p>
+                            <span>/diego3g</span>
+                        </a>
+                    </td>
+                    <td>
+                        <p>1454</p>
+                    </td>
+                    <td>
+                        <p>598</p>
+                    </td>
+                    <td>
+                        <button class="remove">Remover</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="user">
+                        <img src="https://github.com/maykbrito.png" alt="Imagem de Karen Cardoso">
+                        <a href="http://github.com/maykbrito" target="_blank">
+                            <p>Maik Brito</p>
+                            <span>/maykbrito</span>
+                        </a>
+                    </td>
+                    <td>
+                        <p>1454</p>
+                    </td>
+                    <td>
+                        <p>598</p>
+                    </td>
+                    <td>
+                        <button class="remove">Remover</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="user">
+                        <img src="https://github.com/maykbrito.png" alt="Imagem de Karen Cardoso">
+                        <a href="http://github.com/maykbrito" target="_blank">
+                            <p>Maik Brito</p>
+                            <span>/maykbrito</span>
+                        </a>
+                    </td>
+                    <td>
+                        <p>1454</p>
+                    </td>
+                    <td>
+                        <p>598</p>
+                    </td>
+                    <td>
+                        <button class="remove">Remover</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="user">
+                        <img src="https://github.com/karencscardoso.png" alt="Imagem de Karen Cardoso">
+                        <a href="http://github.com/karencscardoso" target="_blank">
+                            <p>Karen Cardoso</p>
+                            <span>/karencscardoso</span>
+                        </a>
+                    </td>
+                    <td>
+                        <p>1454</p>
+                    </td>
+                    <td>
+                        <p>598</p>
+                    </td>
+                    <td>
+                        <button class="remove">Remover</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="user">
+                        <img src="https://github.com/karencscardoso.png" alt="Imagem de Karen Cardoso">
+                        <a href="http://github.com/karencscardoso" target="_blank">
+                            <p>Karen Cardoso</p>
+                            <span>/karencscardoso</span>
+                        </a>
+                    </td>
+                    <td>
+                        <p>1454</p>
+                    </td>
+                    <td>
+                        <p>598</p>
+                    </td>
+                    <td>
+                        <button class="remove">Remover</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    
+</body>
+</html>
